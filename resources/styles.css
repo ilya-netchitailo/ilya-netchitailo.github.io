@@ -1,0 +1,56 @@
+html {
+    font-family: "Open Sans", sans-serif;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: #10202b;
+    vertical-align: middle;
+    padding: 10px 20px;
+    height: 80px;
+    box-sizing: border-box;
+}
+
+a.tab {
+    background-color: #10202b;
+    vertical-align: middle;
+    color: #a4a4a4;
+    border-left: 1px solid;
+    padding: 0 10px;
+    text-decoration: none;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+a.tab.selected {
+    color: white
+}
+
+.page {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    padding: 10px 20px;
+}
+.title {
+    color: white;
+    font-size: 30px;
+    padding: 0 20px;
+}
+.content {
+    padding-left: 20px;
+    max-width: 800px;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+img {
+    vertical-align: middle;
+}
